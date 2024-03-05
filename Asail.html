@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asail Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+    
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 40%;
+    }
+    
+    
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.8rem;
+    }
+    .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+  position: relative;
+}
+
+.icon-text-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon-wrapper img {
+  width: 48px;
+  height: 48px;
+}
+h1 {
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+      font-size: 2rem; /* adjust this value to make it larger than the text inside p */
+    }
+    p {
+      font-size: 1rem; /* adjust this value to make it smaller than the h1 heading */
+      text-transform: none;
+      text-align: center;
+    }
+   
+    
+  </style>
+</head>
+<body>
+  <header>
+    <img src="pic.jpg" alt="Personal Photo" width="100%" height="auto" />
+    <h1>Asail Mohammed </h1>
+    <p> <b>Computer Science</b> student , <b>Web Developer</b>  and interested in <b>UI UX design</b> </p>
+    <hr>
+    <br>
+    <br>
+  </header>
+  <main>
+    
+    <div class="social-icon">
+        <div class="icon-container">
+          <a href="https://www.instagram.com/bgt4/" target="_blank">
+            <div class="icon-wrapper">
+                <div class="icon-text-wrapper">
+                    <span>Instagram</span>
+                  </div>
+            <img src="instagramicon.jpg" alt="Instagram Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+          </div></a>
+          <a href="https://pin.it/74w1N5VVA" target="_blank">
+            <div class="icon-wrapper">
+                <div class="icon-text-wrapper">
+                    <span>Pintrest</span>
+                  </div>
+            <img src="pin.png" alt="Pintrest Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+          </div></a>
+          <a href="www.linkedin.com/in/asail7" target="_blank">
+            <div class="icon-wrapper">
+                <div class="icon-text-wrapper">
+                    <span>LinkedIn</span>
+                  </div>
+            <img src="in.png" alt="LinkedIn Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+          </div></a>
+          <a href="https://wa.me/qr/AIWQHAC2E3Z4G1" target="_blank">
+            <div class="icon-wrapper">
+                <div class="icon-text-wrapper">
+                    <span>WhatsApp</span>
+                  </div>
+            <img src="wh.png" alt="WhatsApp Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+          </div></a>
+          <a href="mailto:Asaill7@outlook.sa" target="_blank">
+            <div class="icon-wrapper">
+                <div class="icon-text-wrapper">
+                    <span>Email</span>
+                  </div>
+            <img src="email.png" alt="Email Icon" style="width: 50px; height: 50px; margin-bottom: 10px; ">
+          </div></a>
+        </div>
+      </div>
+      <br>
+  </main>
+  <footer>
+    Created on <script>document.write(new Date().toLocaleDateString())</script>
+  </footer>
+</body>
+</html>
